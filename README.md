@@ -1,2 +1,3 @@
-# jass-tournament
-Contains the results of the various Jass Tournaments
+# Jass Tournament Results and Logs
+
+In the folders included in this repo you can find the results and logs of the played tournaments
