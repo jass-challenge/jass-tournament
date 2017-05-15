@@ -1,4 +1,4 @@
-# Training Day #1
+# Training Day #2
 
 In this folder you can find all the logs for the whole tournament. All bots played each other 5 times.
 
