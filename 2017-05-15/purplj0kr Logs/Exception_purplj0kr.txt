@@ -1,0 +1,88 @@
+<-- purplj0kr receives: {"type":"PLAYED_CARDS","data":[{"number":10,"color":"CLU
+BS"},{"number":10,"color":"SPADES"}]}
+<-- purplj0kr receives: {"type":"REQUEST_CARD","data":[{"number":10,"color":"CLU
+BS"},{"number":10,"color":"SPADES"}]}
+purplj0kr: Session closed
+
+Web socket closed
+
+Unhandled Exception:
+System.Net.WebSockets.WebSocketException: The 'System.Net.WebSockets.InternalCli
+entWebSocket' instance cannot be used for communication because it has been tran
+sitioned into the 'Aborted' state. ---> System.Threading.Tasks.TaskCanceledExcep
+tion: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNot
+ification(Task task)
+   at System.Net.WebSockets.WebSocketConnectionStream.<WriteAsync>d__22.MoveNext
+()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNot
+ification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<SendFrameAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNot
+ification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.Move
+Next()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNot
+ification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<SendAsyncCore>d__47.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Except
+ion innerException)
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String met
+hodName, Exception exception, CancellationToken cancellationToken, Boolean abort
+ed)
+   at System.Net.WebSockets.WebSocketBase.<SendAsyncCore>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNot
+ification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at JassBot.Bot.WebSocketClient.<Send>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__
+6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object sta
+te)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionCo
+ntext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, C
+ontextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWor
+kItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+Unhandled Exception: System.InvalidOperationException: There is already one outs
+tanding 'SendAsync' call for this WebSocket instance. ReceiveAsync and SendAsync
+ can be called simultaneously, but at most one outstanding operation for each of
+ them is allowed at the same time.
+   at System.Net.WebSockets.WebSocketBase.<SendAsyncCore>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNot
+ification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at JassBot.Bot.WebSocketClient.<Send>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__
+6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object sta
+te)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionCo
+ntext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, C
+ontextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWor
+kItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
