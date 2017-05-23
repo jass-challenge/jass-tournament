@@ -1,1 +1,294 @@
-[{"broadcast":true,"messageType":"BROADCAST_TEAMS","data":[{"name":"Team 1","players":[{"name":"Gummiblub2","id":"6114b992-9485-a423-c5a7-3232a03c97c8","seatId":0},{"name":"Gummiblub2","id":"affb66e0-8be9-154b-feb0-fd963d71add0","seatId":2}]},{"name":"Team 2","players":[{"name":"Mighty Hans","id":"7b48eed0-2667-c7cc-adca-b26ab81fbeeb","seatId":1},{"name":"Mighty Hans","id":"b1dc4842-9919-e564-e5a2-c7b23975f2e5","seatId":3}]}]},{"broadcast":false,"sentTo":"Gummiblub2#0","messageType":"DEAL_CARDS","data":[{"number":11,"color":"HEARTS"},{"number":8,"color":"DIAMONDS"},{"number":9,"color":"SPADES"},{"number":12,"color":"DIAMONDS"},{"number":8,"color":"HEARTS"},{"number":7,"color":"HEARTS"},{"number":10,"color":"DIAMONDS"},{"number":9,"color":"CLUBS"},{"number":10,"color":"HEARTS"}]},{"broadcast":false,"sentTo":"Mighty Hans#1","messageType":"DEAL_CARDS","data":[{"number":13,"color":"CLUBS"},{"number":6,"color":"HEARTS"},{"number":7,"color":"SPADES"},{"number":13,"color":"SPADES"},{"number":14,"color":"DIAMONDS"},{"number":14,"color":"SPADES"},{"number":10,"color":"CLUBS"},{"number":13,"color":"DIAMONDS"},{"number":11,"color":"DIAMONDS"}]},{"broadcast":false,"sentTo":"Gummiblub2#2","messageType":"DEAL_CARDS","data":[{"number":9,"color":"HEARTS"},{"number":13,"color":"HEARTS"},{"number":8,"color":"SPADES"},{"number":11,"color":"CLUBS"},{"number":14,"color":"HEARTS"},{"number":11,"color":"SPADES"},{"number":14,"color":"CLUBS"},{"number":6,"color":"SPADES"},{"number":10,"color":"SPADES"}]},{"broadcast":false,"sentTo":"Mighty Hans#3","messageType":"DEAL_CARDS","data":[{"number":12,"color":"HEARTS"},{"number":8,"color":"CLUBS"},{"number":7,"color":"CLUBS"},{"number":9,"color":"DIAMONDS"},{"number":6,"color":"CLUBS"},{"number":7,"color":"DIAMONDS"},{"number":6,"color":"DIAMONDS"},{"number":12,"color":"SPADES"},{"number":12,"color":"CLUBS"}]},{"broadcast":false,"sentTo":"Gummiblub2#0","messageType":"REQUEST_TRUMPF","data":false},{"broadcast":false,"receivedFrom":"Gummiblub2#0","messageType":"CHOOSE_TRUMPF","data":{"mode":"SCHIEBE","trumpfColor":null}},{"broadcast":true,"messageType":"BROADCAST_TRUMPF","data":{"mode":"SCHIEBE","trumpfColor":null}},{"broadcast":false,"sentTo":"Gummiblub2#2","messageType":"REQUEST_TRUMPF","data":true},{"broadcast":false,"receivedFrom":"Gummiblub2#2","messageType":"CHOOSE_TRUMPF","data":{"mode":"TRUMPF","trumpfColor":"HEARTS"}},{"broadcast":true,"messageType":"BROADCAST_TRUMPF","data":{"mode":"TRUMPF","trumpfColor":"HEARTS"}},{"broadcast":false,"sentTo":"Gummiblub2#0","messageType":"REQUEST_CARD","data":[]},{"broadcast":false,"receivedFrom":"Gummiblub2#0","messageType":"CHOOSE_CARD","data":{"number":11,"color":"HEARTS"}},{"broadcast":true,"messageType":"PLAYED_CARDS","data":[{"number":11,"color":"HEARTS"}]},{"broadcast":false,"sentTo":"Mighty Hans#1","messageType":"REQUEST_CARD","data":[{"number":11,"color":"HEARTS"}]}],{"broadcast":true,"messageType":"BROADCAST_WINNER_TEAM","data":{"name":"Team 2","points":0,"currentRoundPoints":0}}
+[
+  {
+    "broadcast": true,
+    "messageType": "BROADCAST_TEAMS",
+    "data": [
+      {
+        "name": "Team 1",
+        "players": [
+          {
+            "name": "Gummiblub2",
+            "id": "6114b992-9485-a423-c5a7-3232a03c97c8",
+            "seatId": 0
+          },
+          {
+            "name": "Gummiblub2",
+            "id": "affb66e0-8be9-154b-feb0-fd963d71add0",
+            "seatId": 2
+          }
+        ]
+      },
+      {
+        "name": "Team 2",
+        "players": [
+          {
+            "name": "Mighty Hans",
+            "id": "7b48eed0-2667-c7cc-adca-b26ab81fbeeb",
+            "seatId": 1
+          },
+          {
+            "name": "Mighty Hans",
+            "id": "b1dc4842-9919-e564-e5a2-c7b23975f2e5",
+            "seatId": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Gummiblub2#0",
+    "messageType": "DEAL_CARDS",
+    "data": [
+      {
+        "number": 11,
+        "color": "HEARTS"
+      },
+      {
+        "number": 8,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 9,
+        "color": "SPADES"
+      },
+      {
+        "number": 12,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 8,
+        "color": "HEARTS"
+      },
+      {
+        "number": 7,
+        "color": "HEARTS"
+      },
+      {
+        "number": 10,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 9,
+        "color": "CLUBS"
+      },
+      {
+        "number": 10,
+        "color": "HEARTS"
+      }
+    ]
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Mighty Hans#1",
+    "messageType": "DEAL_CARDS",
+    "data": [
+      {
+        "number": 13,
+        "color": "CLUBS"
+      },
+      {
+        "number": 6,
+        "color": "HEARTS"
+      },
+      {
+        "number": 7,
+        "color": "SPADES"
+      },
+      {
+        "number": 13,
+        "color": "SPADES"
+      },
+      {
+        "number": 14,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 14,
+        "color": "SPADES"
+      },
+      {
+        "number": 10,
+        "color": "CLUBS"
+      },
+      {
+        "number": 13,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 11,
+        "color": "DIAMONDS"
+      }
+    ]
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Gummiblub2#2",
+    "messageType": "DEAL_CARDS",
+    "data": [
+      {
+        "number": 9,
+        "color": "HEARTS"
+      },
+      {
+        "number": 13,
+        "color": "HEARTS"
+      },
+      {
+        "number": 8,
+        "color": "SPADES"
+      },
+      {
+        "number": 11,
+        "color": "CLUBS"
+      },
+      {
+        "number": 14,
+        "color": "HEARTS"
+      },
+      {
+        "number": 11,
+        "color": "SPADES"
+      },
+      {
+        "number": 14,
+        "color": "CLUBS"
+      },
+      {
+        "number": 6,
+        "color": "SPADES"
+      },
+      {
+        "number": 10,
+        "color": "SPADES"
+      }
+    ]
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Mighty Hans#3",
+    "messageType": "DEAL_CARDS",
+    "data": [
+      {
+        "number": 12,
+        "color": "HEARTS"
+      },
+      {
+        "number": 8,
+        "color": "CLUBS"
+      },
+      {
+        "number": 7,
+        "color": "CLUBS"
+      },
+      {
+        "number": 9,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 6,
+        "color": "CLUBS"
+      },
+      {
+        "number": 7,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 6,
+        "color": "DIAMONDS"
+      },
+      {
+        "number": 12,
+        "color": "SPADES"
+      },
+      {
+        "number": 12,
+        "color": "CLUBS"
+      }
+    ]
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Gummiblub2#0",
+    "messageType": "REQUEST_TRUMPF",
+    "data": false
+  },
+  {
+    "broadcast": false,
+    "receivedFrom": "Gummiblub2#0",
+    "messageType": "CHOOSE_TRUMPF",
+    "data": {
+      "mode": "SCHIEBE",
+      "trumpfColor": null
+    }
+  },
+  {
+    "broadcast": true,
+    "messageType": "BROADCAST_TRUMPF",
+    "data": {
+      "mode": "SCHIEBE",
+      "trumpfColor": null
+    }
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Gummiblub2#2",
+    "messageType": "REQUEST_TRUMPF",
+    "data": true
+  },
+  {
+    "broadcast": false,
+    "receivedFrom": "Gummiblub2#2",
+    "messageType": "CHOOSE_TRUMPF",
+    "data": {
+      "mode": "TRUMPF",
+      "trumpfColor": "HEARTS"
+    }
+  },
+  {
+    "broadcast": true,
+    "messageType": "BROADCAST_TRUMPF",
+    "data": {
+      "mode": "TRUMPF",
+      "trumpfColor": "HEARTS"
+    }
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Gummiblub2#0",
+    "messageType": "REQUEST_CARD",
+    "data": []
+  },
+  {
+    "broadcast": false,
+    "receivedFrom": "Gummiblub2#0",
+    "messageType": "CHOOSE_CARD",
+    "data": {
+      "number": 11,
+      "color": "HEARTS"
+    }
+  },
+  {
+    "broadcast": true,
+    "messageType": "PLAYED_CARDS",
+    "data": [
+      {
+        "number": 11,
+        "color": "HEARTS"
+      }
+    ]
+  },
+  {
+    "broadcast": false,
+    "sentTo": "Mighty Hans#1",
+    "messageType": "REQUEST_CARD",
+    "data": [
+      {
+        "number": 11,
+        "color": "HEARTS"
+      }
+    ]
+  }
+],{"broadcast": true, "messageType": "BROADCAST_WINNER_TEAM", "data": {"name": "Team 2", "points": 0,"currentRoundPoints": 0
+}
+}
